@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./assets/bg.png" />
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/profile.css" />
+</head>
+<body>
+    <main class="container">
+        <div class="card">
+            <h1>Hello</h1>
+            <h2>Personal Information</h2>
+            
+            <form id="profileForm">
+                <fieldset>
+                    <legend>User Details</legend>
+
+                    <div class="input-box">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" value="Sree Kavin" />
+                    </div>
+
+                    <div class="input-box">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age" value="21" />
+                    </div>
+
+                    <div class="input-box">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="dob" value="2002-03-31" />
+                    </div>
+
+                    <div class="input-box">
+                        <label for="contact">Phone Number</label>
+                        <input type="tel" id="contact" name="contact" value="9843097551" />
+                    </div>
+                </fieldset>
+
+                <div class="button">
+                    <input type="submit" value="Update" />
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="./js/profile.js"></script>
+</body>
+</html>

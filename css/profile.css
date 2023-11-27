@@ -1,0 +1,54 @@
+body {
+  background: #0dba4b;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #fff; /* Added text color for h1 */
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #666;
+}
+
+/* Added styling for links within the card */
+.card a {
+  color: #0dba4b;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition for link color change */
+}
+
+.card a:hover {
+  color: #fff;
+  text-decoration: underline; /* Underline on hover */
+}
